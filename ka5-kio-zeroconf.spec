@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.04.2
+%define		kdeappsver	23.04.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kio-zeroconf
 Summary:	kio zeroconf
 Summary(pl.UTF-8):	kio zeroconf
 Name:		ka5-%{kaname}
-Version:	23.04.2
+Version:	23.04.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	d70fbc0c5d52bdb13a43678f0cb690a7
+# Source0-md5:	0e0e741d29b55a59f1fcc6f1eae143e6
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel
 BuildRequires:	gettext-devel
